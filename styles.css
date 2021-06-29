@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* width: 100%; */
+  /* background-image: url(./Pokemon-Wallpaper-Live-4K-Wallpapers.jpg); */
+  background-repeat: no-repeat;
+  object-fit: cover;
+  /* width: 200%; */
+  /* display: flex;
+  justify-content: center; */
+}
+.container {
+}
+
+img {
+  width: 350px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  /* color: white; */
+  /* background: linear-gradient(#005cb4, #ffd700); */
+  text-shadow: 2px #005cb4;
+  text-shadow: 5px 0 #425ca1, 0 4px #425ca1, 0px 0 #425ca1, 0 5px #425ca1;
+  font-family: sans;
+  color: yellow;
+}
+
+.title {
+  color: #ffd700;
+  /* 1 pixel black shadow to left, top, right and bottom */
+}
+
+.pokemon {
+  height: 10vh;
+}
+
+button {
+  background: linear-gradient(
+    red,
+    red,
+    red,
+    red,
+    black,
+    white,
+    white,
+    white,
+    white
+  );
+  /* background: linear-gradient(
+    to right,
+    red,
+    red 40%,
+    black 40%,
+    black 40%,
+    white 40%,
+    white
+  ); */
+  padding: 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon-list-container {
+  padding: 3% 37%;
+  width: 30%;
+}
+
+.pokemon-info {
+  display: flex;
+  justify-content: center;
+  border: 3px solid yellow;
+  background: linear-gradient(yellow, orange, orange);
+  width: 70px;
+  padding: 30px;
+}
